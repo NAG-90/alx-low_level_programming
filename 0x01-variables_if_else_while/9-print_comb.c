@@ -11,9 +11,16 @@ int main(void)
 
 	while (i <= 57)
 	{
-		putchar(i);
-		putchar(44);
-		putchar(32);
+		if (i == 57)
+		{
+			putchar(i);
+		}
+		else
+		{
+			putchar(i);
+			putchar(44);
+			putchar(32);
+		}
 		i++;
 	}
 	return (0);
