@@ -9,13 +9,13 @@ int main(void)
 {
 	int i = 48;
 
-	putchar(i);
-	while (i < 57)
+	while (i <= 57)
 	{
-		i++;
+		putchar(i);
 		putchar(44);
 		putchar(32);
-		putchar(i);
+		i++;
 	}
+	putchar(32);
 	return (0);
 }
