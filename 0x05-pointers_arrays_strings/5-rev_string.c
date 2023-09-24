@@ -20,7 +20,6 @@ void rev_string(char *str)
 		len--;
 	}
 }
-
 /**
  * _strlen - return the lenght of a string
  * @s: address of a pointer of char
@@ -38,7 +37,6 @@ int _strlen(char *s)
         }
         return (count);
 }
-
 /**
  * swap_char - swap value of two char
  * @a: a pointer to a char
