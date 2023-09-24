@@ -28,14 +28,14 @@ void rev_string(char *str)
  */
 int _strlen(char *s)
 {
-        int count;
-
-        count = 0;
-        while (s[count] != '\0')
-        {
-                count++;
-        }
-        return (count);
+	int count;
+	
+	count = 0;
+	while (s[count] != '\0')
+	{
+		count++;
+	}
+	return (count);
 }
 /**
  * swap_char - swap value of two char
@@ -46,9 +46,9 @@ int _strlen(char *s)
  */
 void swap_char(char *a, char *b)
 {
-        char c;
-
-        c = *a;
-        *a = *b;
-        *b = c;
+	char c;
+	
+	c = *a;
+	*a = *b;
+	*b = c;
 }
